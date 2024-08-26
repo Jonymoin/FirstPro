@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+ 
+</head>
+<body class="text-white bg-cyan-950">
+  <header class=" fixed top-0 left-0 w-full bg-cyan-800">
+    <nav class="bg-cyan-800 container mx-auto relative h-14 flex justify-between items-center">
+      <div>
+        <a href="#" class="text-2xl uppercase">Bur<span class="text-yellow-400">ger</span></a>
+      </div>
+      <div class="hidden absolute top-0 left-0 w-full py-14 bg-cyan-800 md:block md:static md:w-auto md:py-0 md:ml-auto" id="navmenu">
+        <ul class="flex flex-col text-center gap-5 md:flex-row">
+          <li>
+            <a href="#home" class="navlink hover:text-yellow-400">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="navlink hover:text-yellow-400">About Us</a>
+          </li>
+          <li>
+            <a href="#menu" class="navlink hover:text-yellow-400">Menu</a>
+          </li>
+          <li>
+            <a href="#review" class="navlink hover:text-yellow-400">Review</a>
+          </li>
+          <li>
+            <a href="#contact" class="navlink hover:text-yellow-400">Contact</a>
+          </li>
+        </ul>
+        <div class="absolute top-[0.7rem] right-4 text-2xl md:hidden" id="navclose">
+          <i class="ri-close-line cursor-pointer"></i>
+        </div>
+      </div>
+      <div class="flex items-center gap-5">
+        <i class="ri-moon-line text-2xl cursor-pointer"></i>
+        <div id="hamburger" class="md:hidden">
+          <i class="ri-menu-2-line text-2xl cursor-pointer"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+<section id="home">
+     <div class="container mx-auto flex flex-col items-center gap-10 md:flex-row">
+        <div class="mx-auto md:basis-1/2">
+          <img src="./img/home-image.png" alt="">
+        </div>
+        <div class="text-center md:basis-1/2 md:text-start">
+          <h1 class="text-4xl">HAPPY TUMMY WITH <br> TASTY BURGERS.</h1>
+          <div class="mx-auto w-40 h-[2px] bg-yellow-400 mt-5 md:mx-0">
+
+          </div>
+          <p class="mt-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,libero magni? Fugiat perspiciatis eius, sequi aliquid ullam dolorem temporibus voluptate corrupti fugit saepe sunt unde culpa? Tenetur quos quod laudantium.
+
+
+          </p>
+          <div class="text-base flex items-center justify-center gap-4 py-10 md:justify-start md:gap-20">
+            <div class="text-center">
+              <i class="fa-solid fa-utensils text-yellow-500 text-4xl"></i>
+              <br />
+              delicious
+
+            </div>
+            <div class="text-center">
+              <i class="fa-solid fa-droplet text-yellow-500 text-4xl"></i>
+              <br />
+              Fresh
+
+            </div>
+            <div class="text-center">
+              <i class="fa-brands fa-envira text-yellow-500 text-4xl"></i>
+              <br />
+              Organic
+
+            </div>
+            
+          </div><a href="" class="btn btnprimary bg-yellow-500">Learn more</a>
+
+        </div>
+     </div>
+</section>
+
+<section id="category">
+  <div class="container mx-auto flex flex-col gap-5 md:flex-row">
+    <div class="bg-yellow-500 flex py-3 rounded-lg overflow-hidden md:flex-1">
+        <div class="basis-1/3 relative">
+          <img src="./img/burger-1.png" alt="" class="absolute w-28 -bottom-4 -left-4">
+        </div>
+        <div>
+          <div class="mb-2">
+            <h4 class="cardtitle">Food</h4>
+            <p class="text-sm">Lorem ipsum dolor sit.</p>
+          </div>
+          <a href="" class="text-blac cursor-pointer">Buy Online</a>
+        </div>
+    </div>
+
+    <div class="bg-red-500 flex py-3 rounded-lg overflow-hidden md:flex-1">
+      <div class="basis-1/3 relative">
+        <img src="./img/snack-1.png" alt="" class="absolute w-28 -bottom-4 -left-4">
+      </div>
+      <div>
+        <div class="mb-2">
+          <h4 class="cardtitle">Food</h4>
+          <p class="text-sm">Lorem ipsum dolor sit.</p>
+        </div>
+        <a href="" class="text-blac cursor-pointer">Buy Online</a>
+      </div>
+  </div>
+
+  <div class="bg-green-500 flex py-3 rounded-lg overflow-hidden md:flex-1">
+    <div class="basis-1/3 relative">
+      <img src="./img/beverage-2.png" alt="" class="absolute w-28 -bottom-4 -left-4">
+    </div>
+    <div>
+      <div class="mb-2">
+        <h4 class="cardtitle">Food</h4>
+        <p class="text-sm">Lorem ipsum dolor sit.</p>
+      </div>
+      <a href="" class="text-blac cursor-pointer">Buy Online</a>
+    </div>
+</div>
+  </div>
+</section>
+
+<section id="promo">
+    <div class="container mx-auto flex flex-col gap-5 md:flex-row">
+      <div class="bg-cyan-900 flex flex-col p-5 rounded-lg md:flex-1">
+        <div>
+          <img src="./img/promo-1.png" alt="" class="w-48 mx-auto">
+        </div>
+        <div class="space-y-2 pt-5 mx-auto">
+          <p class="text-sm text-yellow-400">Payday Promo</p>
+          <h4 class="cardtitle">get a 10% discount on payday week</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="" class="text-xs text-yellow-400">Buy Online</a>
+        </div>
+      </div>
+
+      <div class="bg-cyan-900 flex flex-col p-5 rounded-lg md:flex-1">
+        <div>
+          <img src="./img/promo-2.png" alt="" class="w-48 mx-auto">
+        </div>
+        <div class="space-y-2 pt-5 mx-auto">
+          <p class="text-sm text-yellow-400">Payday Promo</p>
+          <h4 class="cardtitle">get a 10% discount on payday week</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="" class="text-xs text-yellow-400">Buy Online</a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="about">
+  <div class="container mx-auto flex flex-col gap-10 md:flex-row">
+       <div class="flex-1">
+        <img src="./img/about.jpg" alt="">
+       </div>
+       <div class="flex-1">
+             <h3 class="cardtitle">find food and drinks all in one place for your best taste</h3>
+             <div></div>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum velit numquam, voluptates voluptate error veritatis alias placeat. Quae vitae eius obcaecati sequi libero ducimus itaque.</p>
+             <ul class="grid grid-cols-2 py-5 space-y-1">
+              <li class="text-xs">
+                <i class="fa-solid fa-check text-yellow-400"></i>
+                  Best price
+              </li>
+              <li class="text-xs">
+                <i class="fa-solid fa-check text-yellow-400"></i>
+                  Fresh Ingridient
+              </li>
+              <li class="text-xs">
+                <i class="fa-solid fa-check text-yellow-400"></i>
+                  Best Service
+              </li>
+              <li class="text-xs">
+                <i class="fa-solid fa-check text-yellow-400"></i>
+                  Health Protocol
+              </li>
+             </ul>
+             <a href="" class="btn bg-yellow-400 text-black">About Us</a>
+       </div>
+  </div>
+
+</section>
+
+<section id="menu">
+    <div class="container mx-auto">
+        <div class="max-w-md mx-auto text-center">
+          <h2 class="cardtitle mb-4">Our best menu</h2>
+          <div class="h-[2px] w-48 bg-yellow-400 mx-auto mb-6"></div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis inventore minima aut, assumenda quos amet.</p>
+          <div class="tabswrap">
+            <ul class="flex flex-wrap justify-center gap-3 py-10">
+              <li data-tabs="all" class="btn bg-cyan-900 active">All</li>
+              <li data-tabs="food" class="btn bg-cyan-900">Food</li>
+              <li data-tabs="snack" class="btn bg-cyan-900">Snack</li>
+              <li data-tabs="beverage" class="btn bg-cyan-900">Beverage</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <ul class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+            <li class="itemwrap food">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/burger-1.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap food">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/burger-2.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap food">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/burger-3.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap food">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/burger-4.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap food">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/burger-5.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <!-- snacks -->
+            <li class="itemwrap snack">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/snack-1.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap snack">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/snack-2.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap snack">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/snack-3.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap snack">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/snack-4.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap snack">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/snack-5.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap snack">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/snack-6.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <!-- beverage -->
+            <li class="itemwrap beverage">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/beverage-1.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap beverage">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/beverage-2.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap beverage">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/beverage-3.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap beverage">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/beverage-4.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+            <li class="itemwrap beverage">
+              <div class="h-56 grid place-items-center bg-cyan-900 rounded-3xl hover:bg-yellow-400 ease-linear duration-200 lg:h-40">
+                <img src="./img/beverage-5.png" alt="" class="w-40 md:w-48 lg:w-24">
+              </div>
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="cardtitle">Regular beef burger</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <p class="text-yellow-400">$42.00</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+    </div>
+</section>
+
+  <script src="main.js"></script>
+</body>
+</html>
